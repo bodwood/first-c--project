@@ -20,5 +20,15 @@ class SeeSharp
     } else {
       Console.WriteLine("You must be at least 18 years old to watch a rated R movie.");
     }
+    Console.WriteLine();
+
+    //Branching with booleans
+    Console.WriteLine("What is your name?");
+    string userName = Console.ReadLine();
+    if(userName.StartsWith("B")){          // StartsWith is a built in C# method to check if the user input starts with a certain character
+      Console.WriteLine("Your name starts with a B!");
+    }else{
+      Console.WriteLine("Your name does NOT start with a B.");
+    }
   }
 }
