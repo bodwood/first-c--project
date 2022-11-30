@@ -52,17 +52,13 @@ class SeeSharp
     {
       Console.WriteLine("Your stay is going to be expensive due to peak travel season and a weekend");
     }
-    else if (summer)
+    else if (!(summer || weekend))
     {
-      Console.WriteLine("Your stay is in the summer, but not on the weekend so this could get expensive, but could be worse!");
-    }
-    else if (weekend)
-    {
-      Console.WriteLine("Your stay is on the weekend, but not in the summer. This could get expensive, but it could be worse!");
+      Console.WriteLine("Your stay is the cheapest it could be!");
     }
     else
     {
-      Console.WriteLine("Your stay should be cheaper than during peak season!");
+      Console.WriteLine("Your stay is in summer or during a weekend, so this will get pricy!");
     }
   }
 }
