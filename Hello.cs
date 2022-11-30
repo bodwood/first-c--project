@@ -15,9 +15,12 @@ class SeeSharp
     //Branching
     Console.WriteLine("Enter your age: ");
     string userAge = Console.ReadLine();
-    if(int.Parse(userAge) >= 18){
+    if (int.Parse(userAge) >= 18)
+    {
       Console.WriteLine("Welcome in! Here is your ticket!");
-    } else {
+    }
+    else
+    {
       Console.WriteLine("You must be at least 18 years old to watch a rated R movie.");
     }
     Console.WriteLine();
@@ -25,9 +28,12 @@ class SeeSharp
     //Branching with booleans
     Console.WriteLine("What is your name?");
     string userName = Console.ReadLine();
-    if(userName.StartsWith("B")){          // StartsWith is a built in C# method to check if the user input starts with a certain character
+    if (userName.StartsWith("B"))
+    {          // StartsWith is a built in C# method to check if the user input starts with a certain character
       Console.WriteLine("Your name starts with a B!");
-    }else{
+    }
+    else
+    {
       Console.WriteLine("Your name does NOT start with a B.");
     }
 
@@ -41,5 +47,22 @@ class SeeSharp
 
     bool summer = season == "summer";      //bool summer is true if season equals "summer"
     bool weekend = dayOfWeek == "weekend"; //bool weekend is true is dayOfWeek equals "weekend"
+
+    if (summer && weekend)
+    {
+      Console.WriteLine("Your stay is going to be expensive due to peak travel season and a weekend");
+    }
+    else if (summer)
+    {
+      Console.WriteLine("Your stay is in the summer, but not on the weekend so this could get expensive, but could be worse!");
+    }
+    else if (weekend)
+    {
+      Console.WriteLine("Your stay is on the weekend, but not in the summer. This could get expensive, but it could be worse!");
+    }
+    else
+    {
+      Console.WriteLine("Your stay should be cheaper than during peak season!");
+    }
   }
 }
