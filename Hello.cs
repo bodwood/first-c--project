@@ -30,5 +30,16 @@ class SeeSharp
     }else{
       Console.WriteLine("Your name does NOT start with a B.");
     }
+
+    Console.WriteLine();
+
+    Console.WriteLine("In what season are you booking a stay?");
+    string season = Console.ReadLine();
+
+    Console.WriteLine("On the weekend or a weeknight?");
+    string dayOfWeek = Console.ReadLine();
+
+    bool summer = season == "summer";      //bool summer is true if season equals "summer"
+    bool weekend = dayOfWeek == "weekend"; //bool weekend is true is dayOfWeek equals "weekend"
   }
 }
