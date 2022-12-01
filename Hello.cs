@@ -78,6 +78,21 @@ class SeeSharp
     groceryList.Remove("tomatoes");                 //removes specific item from list
     Console.WriteLine(groceryList[1]);
 
+    Console.WriteLine();
+
+    Dictionary<string, string> stringDictionary = new Dictionary<string, string>() {};  //dictionaries are key value pairs 
+    stringDictionary["A"] = "Alan";                                                     
+    stringDictionary["B"] = "Bodie";
+    Console.WriteLine(stringDictionary["B"]);
+
+    Dictionary<string, int> stringIntDictionary = new Dictionary<string, int>() {       //strings and ints can be used together
+      {"puppies", 2}, {"children", 0}, {"wives", 1}
+    };
+    Console.WriteLine(stringIntDictionary["puppies"]);
+
+    Console.WriteLine();
+
+    
 
 
   }
