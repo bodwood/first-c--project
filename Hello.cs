@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 class SeeSharp
 {
@@ -61,11 +62,23 @@ class SeeSharp
       Console.WriteLine("Your stay is in summer or during a weekend, so this will get pricy!");
     }
 
+
     Console.WriteLine();
 
-    int[] numbersDoubled = {1, 2, 3, 4};
+    int[] numbersDoubled = {1, 2, 3, 4};    //arrays cannot change size
     foreach(int i in numbersDoubled){
       Console.WriteLine(i*2);
     }
+    
+    List<string> groceryList = new List<string> {}; //lists can change size dynamically
+    groceryList.Add("pickles");                     //using System.Collections.Generic; must be added to the top of the file in order to use lists
+    groceryList.Add("tomatoes");
+    groceryList.Add("mangos");
+    Console.WriteLine(groceryList[1]);
+    groceryList.Remove("tomatoes");                 //removes specific item from list
+    Console.WriteLine(groceryList[1]);
+
+
+
   }
 }
