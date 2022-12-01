@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bodie\\onedrive\\desktop\\epicodus-projects\\hello_world\\Hello.csproj": {}
+    "C:\\Users\\bodie\\OneDrive\\Desktop\\Epicodus-Projects\\hello_world\\Hello.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bodie\\onedrive\\desktop\\epicodus-projects\\hello_world\\Hello.csproj": {
+    "C:\\Users\\bodie\\OneDrive\\Desktop\\Epicodus-Projects\\hello_world\\Hello.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bodie\\onedrive\\desktop\\epicodus-projects\\hello_world\\Hello.csproj",
+        "projectUniqueName": "C:\\Users\\bodie\\OneDrive\\Desktop\\Epicodus-Projects\\hello_world\\Hello.csproj",
         "projectName": "Hello",
-        "projectPath": "C:\\Users\\bodie\\onedrive\\desktop\\epicodus-projects\\hello_world\\Hello.csproj",
+        "projectPath": "C:\\Users\\bodie\\OneDrive\\Desktop\\Epicodus-Projects\\hello_world\\Hello.csproj",
         "packagesPath": "C:\\Users\\bodie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bodie\\onedrive\\desktop\\epicodus-projects\\hello_world\\obj\\",
+        "outputPath": "C:\\Users\\bodie\\OneDrive\\Desktop\\Epicodus-Projects\\hello_world\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bodie\\AppData\\Roaming\\NuGet\\NuGet.Config"

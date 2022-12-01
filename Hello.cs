@@ -60,5 +60,12 @@ class SeeSharp
     {
       Console.WriteLine("Your stay is in summer or during a weekend, so this will get pricy!");
     }
+
+    Console.WriteLine();
+
+    int[] numbersDoubled = {1, 2, 3, 4};
+    foreach(int i in numbersDoubled){
+      Console.WriteLine(i*2);
+    }
   }
 }
