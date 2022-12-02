@@ -65,9 +65,21 @@ class SeeSharp
 
     Console.WriteLine();
 
+    int totalOfAll = 0;
     int[] numbersDoubled = {1, 2, 3, 4};    //arrays cannot change size
-    foreach(int i in numbersDoubled){
+    foreach(int i in numbersDoubled){       //for each loops are great for iterating arrays
       Console.WriteLine(i*2);
+      totalOfAll += i;                      //1+2+3+4 = 10
+    }
+    Console.WriteLine("the total of the number array is: " + totalOfAll);
+
+
+    Console.WriteLine("\nEnter you birth year to determine each leap year you have experienced in your lifetime: ");
+    int userBirthYear = int.Parse(Console.ReadLine());
+    for(int i = userBirthYear; i <= 2022; i++){
+      if (i%4 == 0){
+        Console.WriteLine(i);
+      }
     }
     
     List<string> groceryList = new List<string> {}; //lists can change size dynamically
